@@ -1,0 +1,8 @@
+//		int peerServerCount = 0;
+//		for (int i = 0; i < totalServerNum; i++) {
+//			if (i != serverID) {
+//				int portNum = firstServerPortNum + i;
+//				peerServers[peerServerCount] = (PeerComm) Naming.lookup("//"
+//						+ "127.0.0.1" + ":" + portNum + "/AccountServer");
+//			}
+//		}
