@@ -1,8 +1,9 @@
-#Total ordered distributed server
+#Total Ordered Distributed Server
+
 
 ##PURPOSE:
 
-    Simple total ordered distributed server based on state machine model and lamport clock
+    Simple total ordering distributed server based on state machine model
 
 
 
@@ -33,7 +34,9 @@
 	** num of server and client should be the same
 
 
+##PERFORMANCE TESTING RESULT:
 
+    the cal.py(running on modified client_log file) would calculate the average response gap of the 1, 3, 5 servers are respectively 0, 1 ,2 in millionsecond.
 
 
 ##KNOWN BUGS:
